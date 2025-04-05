@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf6ee;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff8f2;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #b04a4a;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #902e2e;
+}
+
+.table-layout-rect {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto 30px;
+}
+
+.table-rect {
+    background-color: #b04a4a;
+    position: absolute;
+    z-index: 1;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: width 0.3s, height 0.3s;
+}
+
+.chairs {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    z-index: 2;
+}
+
+.seat {
+    width: 60px;
+    height: 60px;
+    background-color: #d9c3a8;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.seat:hover {
+    background-color: #c0aa8e;
+}
